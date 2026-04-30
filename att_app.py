@@ -76,7 +76,7 @@ class AttendanceApp:
         if username in self.users and self.users[username] == password:
             self.main_menu_screen()
         else:
-            messagebox.showerror("Login Failed", "Invalid username or password")
+            messagebox.showerror("Your Login Failed", "Invalid username or password")
 
     def main_menu_screen(self):
         self.clear_screen()
